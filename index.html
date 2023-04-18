@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="value" hidden>0</p>
+    <div class="turn-btn">
+
+        <button class="x-turn" onclick="xTurn()">X' Turn</button>
+        <button class="o-turn" onclick="oTurn()">O' Turn</button>
+
+    </div>
+    <div class="conteiner">
+        <div class="boxes">
+            <div class="box bt-0 bl-0" onclick="turn1()"><span class="boxtext" id="1"></span></div>
+            <div class="box bt-0" onclick="turn2()"><span class="boxtext" id="2"></span></div>
+            <div class="box bt-0 br-0" onclick="turn3()"><span class="boxtext" id="3"></span></div>
+            <div class="box bl-0" onclick="turn4()"><span class="boxtext" id="4"></span></div>
+            <div class="box " onclick="turn5()"><span class="boxtext" id="5"></span></div>
+            <div class="box br-0" onclick="turn6()"><span class="boxtext" id="6"></span></div>
+            <div class="box bb-0 bl-0" onclick="turn7()"><span class="boxtext" id="7"></span></div>
+            <div class="box bb-0" onclick="turn8()"><span class="boxtext" id="8"></span></div>
+            <div class="box bb-0 br-0" onclick="turn9()"><span class="boxtext" id="9"></span></div>
+        </div>
+        <div class="score-bord">
+
+            <p id="score">Your score is : 0</p>
+            <p id="f"></p>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
